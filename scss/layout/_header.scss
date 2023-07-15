@@ -1,0 +1,31 @@
+.site-header-footer__container {
+  display: flex;
+  align-items: center;
+  padding-top: 3.9rem;
+  padding-bottom: 3.9rem;
+  @media only screen and (max-width: 768px) {
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+  }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.site-header-footer__logo {
+  margin-right: auto;
+  @media only screen and (max-width: 600px) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    width: 12.9rem;
+  }
+}
+
+.site-header-footer__social {
+  padding-right: 3rem;
+  @media only screen and (max-width: 600px) {
+    padding-right: 0;
+  }
+}

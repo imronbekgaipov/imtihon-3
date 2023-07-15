@@ -1,0 +1,39 @@
+.footer-form {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 44.5rem;
+    padding-bottom: 9.2rem;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  &__input {
+    display: inline-block;
+    width: 44.5rem;
+    margin-bottom: 3.2rem;
+    background-color: transparent;
+    padding: 1.7rem 2.4rem;
+    border: 0;
+    border-bottom: 1px solid $white;
+    color: $white;
+  }
+  &__textarea {
+    display: inline-block;
+    margin-bottom: 3.2rem;
+    background-color: transparent;
+    padding: 1.7rem 2.4rem;
+    border: 0;
+    border-bottom: 1px solid $white;
+    color: $white;
+    max-width: 44.5rem;
+  }
+  &__button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+}

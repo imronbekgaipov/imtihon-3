@@ -1,0 +1,18 @@
+.site-header-footer__container {
+  display: flex;
+  align-items: center;
+  padding-top: 3.9rem;
+  padding-bottom: 3.9rem;
+  &--borders {
+    padding-top: 4.7rem;
+    border-top: 1px solid $white;
+  }
+}
+
+.site-header-footer__logo {
+  margin-right: auto;
+}
+
+.site-header-footer__social {
+  padding-right: 3rem;
+}

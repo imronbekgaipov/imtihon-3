@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  &__img {
+    display: block;
+    width: 172px;
+    height: 32px;
+    object-fit: contain;
+    z-index: 100;
+  }
+}
